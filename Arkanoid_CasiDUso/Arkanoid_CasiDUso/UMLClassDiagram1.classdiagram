@@ -1,0 +1,818 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="a573db94-a440-46f2-b324-da3852f23d01" name="UMLClassDiagram1" linkedPackageId="81188b69-1595-4de3-9bd1-f16e8bc64c62" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="50a97045-c0dd-468d-81b5-cb48ce9d5d27" name="Paddle" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="40463631-b31d-483c-a84f-8db23cde5abe" />
+        <generalsInternal>
+          <generalization Id="c7fc690b-0b1d-4ac0-a1ed-4e562a79c25d" isSubstitutable="false">
+            <classMoniker Id="50b0cce4-29a5-473e-896e-a6d3742826f9" LastKnownName="RectAndRectangle" />
+            <elementDefinition Id="cbf95111-06c6-4211-9542-c566f7cd8346" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="9318798e-0866-4fcf-be13-ef301ad8c148" name="Paddle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9d085e88-f23f-48ba-8d92-2e3e4852cac3" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2029f346-76e7-418b-99b5-39e83f17f1bf" name="posX" direction="In" isUnique="false">
+                  <elementDefinition Id="f44e4ab9-111b-4e83-ad48-f20fce73b55e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="690a369d-c96d-42cc-a39b-90b2d574cbf5" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="382d014c-c237-43b4-8176-67620cf6053b" name="posY" direction="In" isUnique="false">
+                  <elementDefinition Id="16822620-60a8-4987-b28d-c6bfb7e013b6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3c228456-1794-49f2-b073-dbfe05da6f92" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2d3ff70c-5d98-44b4-bdf5-ac50b063c078" name="height" direction="In" isUnique="false">
+                  <elementDefinition Id="40b39c6a-2dc0-4410-91fb-22f7995c15c0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7d275398-1879-4851-a950-1f61dec835e1" name="width" direction="In" isUnique="false">
+                  <elementDefinition Id="7d58fce4-9b23-494b-9390-b0c93ab50e6b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="195c4e5c-32e6-4f7a-8589-e73cb985fd48" name="color : Brush)" direction="In" isUnique="false">
+                  <elementDefinition Id="38ed8e36-918c-4133-bb57-4f086d76af49" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="54a42a1a-5156-47cb-b598-b1f50b01326c" LastKnownName="base(posX" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="12e3729e-7dee-4adf-bfd5-2dea02e2cf19" name="posY" direction="In" isUnique="false">
+                  <elementDefinition Id="1a9f8433-331e-4ed0-8b94-95f2fc0ba7b7" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1a023571-e8ad-4b72-aaa4-bb6126ea507c" name="height" direction="In" isUnique="false">
+                  <elementDefinition Id="430ace00-ce69-4621-b143-4e3a4f90ca0c" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bb7b5f01-c67b-40d1-8f2a-713261067e5a" name="width" direction="In" isUnique="false">
+                  <elementDefinition Id="bb5886da-1155-41f0-9c6d-ad2e27eab095" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="25777eaf-5b7a-4103-9e23-42865563cca6" name="color" direction="In" isUnique="false">
+                  <elementDefinition Id="3b12dbf6-908d-4e21-b3ab-0ad026f98034" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="081a5182-c010-4137-b489-53a74b9c04f5" name="Paddle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9e41bce0-c3f9-4a63-b8b4-6f482192b023" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="034c88e9-c5ec-4c6a-9916-d535d6abaa48" direction="Return" isUnique="false">
+                  <elementDefinition Id="fbd9f2a7-f357-4a5f-ac8d-36cc0b327c25" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="037de844-19bc-4507-9492-0f85ad9c0106" LastKnownName="base(Rectangle)" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="10de81b6-557a-4ca6-9f28-6b2b100fbd30" name="rectangle" direction="In" isUnique="false">
+                  <elementDefinition Id="e504bbf5-1920-4444-a7fe-fb7994520f2b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6bc4fa6f-6d5a-42cf-b40b-64df1b744995" LastKnownName="Rectangle" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bb546858-7f67-445f-849e-5517e97b9549" name="Pallina" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1fd27fbf-7526-4e65-9163-d0362d95c013" />
+        <ownedAttributesInternal>
+          <property Id="dc8735d0-3f67-4b23-9eba-ab8621ac72ec" name="Color" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="450b492d-300e-4f52-8603-de0a95a8b552" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d90e0768-42fe-4f7c-a65c-46debefc28e5" LastKnownName="Brush" />
+            </type_NamedElement>
+          </property>
+          <property Id="6abc3f41-25eb-4a54-9d6a-246d21e55233" name="Ellipse" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="46bc6282-e947-4b0a-909f-b3770011e1fa" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="5ddac636-28f3-4568-919d-bdf2f628d9c5" name="height" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d8bf6a38-ce7b-40d3-8abc-fbfb39af289e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="208aa07d-86f7-45bd-81fe-6c453a188139" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="2957498d-930b-4222-826f-244453c09270" name="posX" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e2b73a94-bbbf-40be-9acf-d469480ad4fa" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5922862b-bd18-40ed-8969-79d1296b6f77" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="e2297d40-08ae-4b67-b24b-8fbac4032deb" name="posY" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="828c911d-7b8f-4762-abbf-f36092573559" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="53c50015-4fd8-454f-940e-59d49075f617" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="ad2fa81c-c1c9-47e0-ad8d-300621a0f235" name="Rect" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="36269839-7d97-477c-a98e-58f15672fbae" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="fa2c743f-e9c5-4133-ada3-720af3476a3a" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="c6de4d55-5fd6-49c8-a77b-10709dcb5f88" name="speed" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="25ae9cb3-44b3-4b13-8d84-30bcaffd76ed" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="658faf53-a930-45ee-81b0-82117c87b972" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="f266c7ba-8c38-409f-8666-3a63e79c99de" name="width" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="63429211-0a31-45dc-9c4b-1be5cde0a28f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7ddfb6f9-c4bc-4960-9dc6-feae8adf8951" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="f3356f61-379c-4cf6-a45c-69c1d7f475e4" name="Ball" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="93272a50-bce0-42c4-a80c-bf6b392ef4d7" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3ef2bde8-1eaf-4b57-b90b-f4b4c430c1b2" name="posX" direction="In" isUnique="false">
+                  <elementDefinition Id="d17dd46c-f9ad-4a12-b3bc-f730fead7452" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f870353e-14cb-4e97-bdbc-9e80d283a55a" name="posY" direction="In" isUnique="false">
+                  <elementDefinition Id="18a8261d-b9b2-4ba6-8e0a-aac20ea2da60" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2cae9fa4-17a3-46b3-985b-f936d9bd2864" name="height" direction="In" isUnique="false">
+                  <elementDefinition Id="0e13ca0f-e0dd-41c3-be93-01719bcf13b1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2f410287-7d48-441d-9e19-fd8f0d968e79" name="width" direction="In" isUnique="false">
+                  <elementDefinition Id="69392e88-f0b2-4a5b-8dc5-8e99a4985b2c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8fbb0af1-ebec-4799-8c47-8b6bff65eaa9" name="color" direction="In" isUnique="false">
+                  <elementDefinition Id="2e200290-220e-4d39-b1d0-5e1d39fe99f8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d90e0768-42fe-4f7c-a65c-46debefc28e5" LastKnownName="Brush" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="add19f56-ca30-44ae-a7fe-fadd68e23dd8" name="direction_x" direction="In" isUnique="false">
+                  <elementDefinition Id="747c6c60-3f8d-4d75-b71d-f8bae3256dea" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c697659d-4c39-41ec-a25e-8291320aba2a" LastKnownName="float" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="80309312-8d85-43ea-b898-b24858f0c94b" name="direction_y" direction="In" isUnique="false">
+                  <elementDefinition Id="461e3c76-015c-4928-bb58-a164857191ae" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c697659d-4c39-41ec-a25e-8291320aba2a" LastKnownName="float" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0359ac14-a406-49dd-9418-e876adbe0264" name="speed" direction="In" isUnique="false">
+                  <elementDefinition Id="ceeb9929-2abe-45fa-8f62-3b49a40a6456" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="1c36648a-486d-4b52-a974-303313cd61c2" name="MoveBall" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="10b90030-9ad7-4ca4-9fa0-7788fcc7adc9" />
+          </operation>
+          <operation Id="a2c15c06-8398-49f9-ae43-9d39ba2d7b3f" name="Reset" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7e643a9a-1377-46ea-ad70-eb088686b340" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ef1ea7cc-347f-4525-81bb-74231ae4d826" name="posX" direction="In" isUnique="false">
+                  <elementDefinition Id="9b30f807-16fe-42b0-b84a-4076c43fd153" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d39058ac-aec4-4604-8ded-6186f7c0f120" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ff73d860-afeb-49f7-aba5-a789c4415615" name="posY" direction="In" isUnique="false">
+                  <elementDefinition Id="c826f8b1-8547-4e70-a6a8-007aebec8c22" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a4655daf-fd67-40ac-ae14-5df40fc5e6eb" name="height" direction="In" isUnique="false">
+                  <elementDefinition Id="a7258b63-8d87-42d1-a0dc-b1815f77691a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="26a88b08-373c-4c39-aa1f-31a2073d514b" name="width" direction="In" isUnique="false">
+                  <elementDefinition Id="200e6f20-0795-4c6d-ab19-c434d23b0e8f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bb4446c3-f7c8-40ee-9a04-dff7e2096abe" name="color" direction="In" isUnique="false">
+                  <elementDefinition Id="8b7347a8-0c93-4ca0-870d-d0d4031989fa" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="be75c2cf-db18-43ff-9d68-48b9a787dc95" LastKnownName="Brush" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="326fc1f7-0ab0-44b4-9d38-00fc2a3a0287" name="direction_x" direction="In" isUnique="false">
+                  <elementDefinition Id="6dc59094-7965-4670-927f-bb40a5de03ac" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2940ca41-8859-4c6c-8af4-d165c82bf3ba" LastKnownName="float" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="50a23b0a-339a-4f8f-a78a-5c3bd732506b" name="direction_y" direction="In" isUnique="false">
+                  <elementDefinition Id="b932a724-5a6c-4366-8abb-5d2947d33a59" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c697659d-4c39-41ec-a25e-8291320aba2a" LastKnownName="float" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ad9ddddc-81ac-4419-a8a2-6cfb081b552c" name="speed" direction="In" isUnique="false">
+                  <elementDefinition Id="945d33e5-c510-4a09-bd98-7aea987d4849" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="42fa477f-0bdd-4870-925b-6e3a866700a9" name="BorderCollision" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="661a2780-920c-4b44-a1bc-2ae25c6d4fc9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="47944a81-cade-440b-aa86-c2b860f42d21" name="Win_Width" direction="In" isUnique="false">
+                  <elementDefinition Id="134a126d-748a-44f5-8589-b7cf7bb5a651" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="ccd7bf97-0b44-4924-a33c-f84ce7ed1125" name="LeavesScreen" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1f9038cf-e96e-441e-bae1-1e4157577813" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="23775221-a079-46d3-900f-2fcbe0c3ec8c" name="int Win_Height" direction="In" isUnique="false">
+                  <elementDefinition Id="25b69c59-f3f3-47f4-900f-8f3089c8b43c" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c3c013cf-488a-4889-bab7-ec7da2e0bed2" direction="Return" isUnique="false">
+                  <elementDefinition Id="d22f8ef7-2254-459c-93fa-a03388e13288" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3ce09c12-8448-43dc-97c0-618b14d21859" LastKnownName="bool" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="554fa0ec-7f60-4769-a527-0529e0f41323" name="IntesectsWithPaddle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9d760f70-7a49-49c7-80d0-83ce1ed81976" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e5378b99-8f40-4cb1-a52f-7678861d6380" name="Paddle" direction="In" isUnique="false">
+                  <elementDefinition Id="0560c542-2da6-4556-8e3e-aa422a346065" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d399a83a-3b12-4a82-9e26-f12e402af4dd" LastKnownName="Rect" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="fed31096-3e4f-481f-ac33-87d339d966e9" direction="Return" isUnique="false">
+                  <elementDefinition Id="0b0f6501-2fb6-4f92-8564-c094d6830db8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3ce09c12-8448-43dc-97c0-618b14d21859" LastKnownName="bool" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c706f1b1-187e-4d26-a767-94c2974e9056" name="IntesectsWithBrick" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2ddeebdf-ec93-40e2-958d-848fce44a2e5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="76fc189d-3bcb-4799-a06b-44642f839d5d" name="Brick" direction="In" isUnique="false">
+                  <elementDefinition Id="27d68e39-43ef-49e4-9f4b-6b8fceb951de" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d399a83a-3b12-4a82-9e26-f12e402af4dd" LastKnownName="Rect" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="825dec0c-2ff0-4207-80a9-4fe305a3d586" direction="Return" isUnique="false">
+                  <elementDefinition Id="59b3caaf-c56f-4459-836f-2dc4cb91900b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3ce09c12-8448-43dc-97c0-618b14d21859" LastKnownName="bool" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e939bae8-e6c6-4b81-8861-4d09f5b606b9" name="Brick" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="585f5738-7b73-4d3b-a164-ffb929c6b017" />
+        <generalsInternal>
+          <generalization Id="b06b223d-1a09-4fd5-89be-1a6c4127f960" isSubstitutable="false">
+            <classMoniker Id="50b0cce4-29a5-473e-896e-a6d3742826f9" LastKnownName="RectAndRectangle" />
+            <elementDefinition Id="3c0c2b4b-4568-4b85-9736-727d6cacfa2d" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="2b508b85-344b-494a-9404-b00130c2dcdd" name="score" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d7377775-2d2c-4ffe-9b8a-67fe136a49e1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="dba0c2c5-cf02-4b41-aa23-c2561f9da47e" name="Score{get;}" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b8adf434-40eb-4803-8817-ab77f354a4a5" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="173850c0-7d0a-4f58-a81c-601bcb77ba3f" name="Brick" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0d80adb0-7401-4a98-b394-f9ed31eb9494" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a34a93d6-6c90-44e9-aaba-93773fbdfebc" name="posX" direction="In" isUnique="false">
+                  <elementDefinition Id="8fa1a155-ea04-4196-bb84-60dfe929ca71" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="dbc97228-c6dc-48f1-a23a-c28813db70bd" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3f402a78-9da9-444e-97fa-8a8d1b0abc20" name="posY" direction="In" isUnique="false">
+                  <elementDefinition Id="df5e60a7-1ed5-4738-a317-4a7e6f075631" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2d1f7153-aa87-40fb-a748-d9c7ad6b4502" name="height" direction="In" isUnique="false">
+                  <elementDefinition Id="5bba2087-60c4-4985-bcbf-2b14abffcd83" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0b20b9f5-3c2a-47df-908c-7f8248a44639" name="width" direction="In" isUnique="false">
+                  <elementDefinition Id="484fb7e9-d55c-4191-8575-723e8eb262af" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8d060da2-4800-46ea-bf8b-9e5293cd74a8" name="color : Brush)" direction="In" isUnique="false">
+                  <elementDefinition Id="6fd267ac-e00f-42e6-8f93-31f9b0a6b91c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="20e5b09f-a766-4bde-8c1e-3ff69f87fa0c" LastKnownName="base(posX" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="fc3cb6d8-ee05-499a-94a3-b94b5edd6914" name="posY" direction="In" isUnique="false">
+                  <elementDefinition Id="35303fc6-6ea3-4d8b-9154-0e04921709f8" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6c1395f5-059e-42a5-9243-96b3b509e13e" name="height" direction="In" isUnique="false">
+                  <elementDefinition Id="f633f5e0-5e1f-466f-aa69-8b12b747f91e" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="521c4e27-f392-4ba6-925c-6a837a2cc8ae" name="width" direction="In" isUnique="false">
+                  <elementDefinition Id="0a19926f-ef2a-49d4-98a2-239048e0b091" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4ded9c89-a7fc-4b9a-a3be-263ca17623d5" name="color" direction="In" isUnique="false">
+                  <elementDefinition Id="02618811-d253-4d61-a4e7-e5de68ee9a63" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="4198b0f0-105a-4b22-ba55-3bcf781a13b4" name="Brick" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e9506496-048e-4997-a432-1f7f78a7336c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="250a079d-93e6-4a4c-9d80-110b0e9c1bce" name="rectangle" direction="In" isUnique="false">
+                  <elementDefinition Id="a3654ba7-eedf-42a8-bbf1-cd11a28e65b2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="226c407d-a0ee-4444-aabf-a4aebbd2a258" LastKnownName="Rectangle" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2fb113b3-854d-421f-bf29-14b30022349b" direction="Return" isUnique="false">
+                  <elementDefinition Id="edd952d4-80d9-4959-aef8-5f24c4a7f81c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7f4c34a0-3937-44ae-9d97-77c411977a4d" LastKnownName="base(Rectangle)" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="50b0cce4-29a5-473e-896e-a6d3742826f9" name="RectAndRectangle" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b94891d8-f071-4328-b52e-f5a0c3c264c5" />
+        <ownedAttributesInternal>
+          <property Id="07b91758-5a17-48f6-8afe-c51bb493e375" name="height" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="36d95dc1-9add-4cc3-9c99-5421f3829440" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5835e1cf-b84c-4e68-9718-8e0e6150d93e" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="04bdeec4-db74-4cc7-b427-fa6a19167c0b" name="posX" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a0219410-2c5d-4994-af54-603c83df125e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b66d0847-5aa7-4eba-815d-f0778f9e3d63" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="f80718c5-f3c8-4fc7-a769-459e1e9208ba" name="posY" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="57a565f0-99ce-4c2b-b2d8-bc686a4f130f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="735f0a1d-4a07-4d72-a99d-77c6630a85da" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="922cee26-902a-455a-9ea3-2db419284b12" name="Rect" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b2847a63-2cbe-4fb0-b669-0a6d65530409" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6aae90c9-a71b-4112-9a4b-a0df8673cb6f" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="d14c7c19-6457-46e0-b9a2-9d804f81e65d" name="speed" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b38a1247-3fc6-4748-b95c-3b1f0c93b30f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="23281ff2-fcc1-4eec-bb01-17f7b23a8d5e" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="e60f5272-6176-4bb3-bf87-1d20beea9bd3" name="width" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6257e691-9bcf-4bf3-9910-d13b8170bee9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="27bb1d5c-eaba-4ed9-84c9-9fd515f69fd8" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="3489ce11-b37c-4960-8c41-3f301ece0e58" name="rectangle" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8af77cb0-bd51-419a-892c-84a401397579" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="226c407d-a0ee-4444-aabf-a4aebbd2a258" LastKnownName="Rectangle" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="1004a27b-b9f1-4449-8324-1729c04f54e0" name="RectAndRectangle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4820ad38-5b63-4fdc-9ecb-e0fa3d71344e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="729583df-441f-45a9-89a7-f17a419b0dcc" name="posX" direction="In" isUnique="false">
+                  <elementDefinition Id="4753e972-0135-421b-a67c-c29c95dee986" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ead53f0a-0002-4afd-8334-8a364cad46d5" name="posY" direction="In" isUnique="false">
+                  <elementDefinition Id="c358ca14-c4d1-4a19-86e7-0e71ee96d604" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f54a3852-7c8f-489a-8e10-a793a709296e" name="height" direction="In" isUnique="false">
+                  <elementDefinition Id="ad34081a-f68b-4895-b15f-d9b796729870" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="481e42d4-c432-4128-b2a6-0dc126907f52" name="width" direction="In" isUnique="false">
+                  <elementDefinition Id="2b64a4c2-5aba-459d-94a3-e455b83f06bb" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f40a958c-0eeb-4cee-b130-2a059db5e413" name="color" direction="In" isUnique="false">
+                  <elementDefinition Id="69c1c27c-819b-459a-9ef7-1371a4f7978e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d90e0768-42fe-4f7c-a65c-46debefc28e5" LastKnownName="Brush" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="a0260fcd-3e63-40ad-abba-f6cfb4f0ee83" name="UpdatePosition" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e340b3f2-3f03-4fe1-b894-38f3d3d8921f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="48e37f75-0991-4890-9a9a-537f1989987b" name="posX" direction="In" isUnique="false">
+                  <elementDefinition Id="f2a20ca8-edb8-4194-8a0f-605bd5db46c8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7812eebb-9c49-46f0-b5e1-b621af3ddbac" name="UpdatePosition" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5e6d5345-0ad1-4a0b-ae71-6ff7d9ceb868" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8d1194a7-39d4-4af6-a0a9-c08cba226cb3" name="posX" direction="In" isUnique="false">
+                  <elementDefinition Id="cafcbcbd-2f1f-4ec1-8217-5fe19abb9b77" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="89505da9-f7b2-4d60-ae6c-592b77e8f16e" name="posY" direction="In" isUnique="false">
+                  <elementDefinition Id="33ef0747-8f2e-4d96-9b06-da2a684d6b84" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="1f65527d-48e1-4fa7-85a0-53bd0ca2075d" name="RectAndRectangle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="291189c5-6a55-48c0-a4a5-6893f10e5045" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="161589ec-cae8-41a3-b39b-725d575ccdfd" name="rectangle : Rectangle)" direction="In" isUnique="false">
+                  <elementDefinition Id="0ae98a6a-4e9f-4ea3-9d0e-9b8af9c24078" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fadda4a4-0abf-4ecb-b7e9-c6d781bfc8a0" LastKnownName="this(Rectangle.Margin.Left" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2e4a6f7e-2230-40b1-8113-d7b0ece60399" name="Rectangle.Margin.Top" direction="In" isUnique="false">
+                  <elementDefinition Id="ea27c4f3-541b-4096-a425-bb12a7c1223f" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="eef9dbaf-f984-452b-ae0a-863709698454" name="Rectangle.Height" direction="In" isUnique="false">
+                  <elementDefinition Id="841e4c55-67ac-4718-b452-813dacb7b78c" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="dc9eea36-caab-4721-8791-57f0239fa955" name="Rectangle.Width" direction="In" isUnique="false">
+                  <elementDefinition Id="31f41795-e588-4b92-9cdb-468322e97b8d" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0b5b1a33-b569-4dd8-a7ac-b8602c41e3b6" name="Rectangle.Fill" direction="In" isUnique="false">
+                  <elementDefinition Id="e7574b1e-683b-43a9-87da-f54d84e4cfe6" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="d90e0768-42fe-4f7c-a65c-46debefc28e5" name="Brush" isAbstract="false" isLeaf="false" cachedFullName="Brush">
+        <elementDefinition Id="83cece9d-6099-44d4-a664-e87f7599297e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="547581c7-ec19-49d7-9fd8-a162f19d06d2" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="208aa07d-86f7-45bd-81fe-6c453a188139" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5922862b-bd18-40ed-8969-79d1296b6f77" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="53c50015-4fd8-454f-940e-59d49075f617" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="fa2c743f-e9c5-4133-ada3-720af3476a3a" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="658faf53-a930-45ee-81b0-82117c87b972" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7ddfb6f9-c4bc-4960-9dc6-feae8adf8951" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5835e1cf-b84c-4e68-9718-8e0e6150d93e" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b66d0847-5aa7-4eba-815d-f0778f9e3d63" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="735f0a1d-4a07-4d72-a99d-77c6630a85da" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6aae90c9-a71b-4112-9a4b-a0df8673cb6f" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="23281ff2-fcc1-4eec-bb01-17f7b23a8d5e" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="27bb1d5c-eaba-4ed9-84c9-9fd515f69fd8" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="226c407d-a0ee-4444-aabf-a4aebbd2a258" name="Rectangle" isAbstract="false" isLeaf="false" cachedFullName="Rectangle">
+        <elementDefinition Id="2b990e09-79b4-40a1-ab0e-635dd040c1ac" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="fadda4a4-0abf-4ecb-b7e9-c6d781bfc8a0" name="this(Rectangle.Margin.Left" isAbstract="false" isLeaf="false" cachedFullName="this(Rectangle.Margin.Left">
+        <elementDefinition Id="b70c3093-1185-4a37-949f-808c561d601e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="dbc97228-c6dc-48f1-a23a-c28813db70bd" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="20e5b09f-a766-4bde-8c1e-3ff69f87fa0c" name="base(posX" isAbstract="false" isLeaf="false" cachedFullName="base(posX">
+        <elementDefinition Id="77a9468b-6da6-4b8e-91a0-5fff66730a5c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7f4c34a0-3937-44ae-9d97-77c411977a4d" name="base(Rectangle)" isAbstract="false" isLeaf="false" cachedFullName="base(Rectangle)">
+        <elementDefinition Id="a225de9f-5a73-4a12-bbd9-cbebbea3fbd3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="690a369d-c96d-42cc-a39b-90b2d574cbf5" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3c228456-1794-49f2-b073-dbfe05da6f92" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="54a42a1a-5156-47cb-b598-b1f50b01326c" name="base(posX" isAbstract="false" isLeaf="false" cachedFullName="base(posX">
+        <elementDefinition Id="77a9468b-6da6-4b8e-91a0-5fff66730a5c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6bc4fa6f-6d5a-42cf-b40b-64df1b744995" name="Rectangle" isAbstract="false" isLeaf="false" cachedFullName="Rectangle">
+        <elementDefinition Id="2b990e09-79b4-40a1-ab0e-635dd040c1ac" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="037de844-19bc-4507-9492-0f85ad9c0106" name="base(Rectangle)" isAbstract="false" isLeaf="false" cachedFullName="base(Rectangle)">
+        <elementDefinition Id="a225de9f-5a73-4a12-bbd9-cbebbea3fbd3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c697659d-4c39-41ec-a25e-8291320aba2a" name="float" isAbstract="false" isLeaf="false" cachedFullName="float">
+        <elementDefinition Id="eddf6840-cf43-4a01-9356-362ade542f9a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d39058ac-aec4-4604-8ded-6186f7c0f120" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="4cce0f2e-d9fb-4aa1-9500-e348bbe804bb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="be75c2cf-db18-43ff-9d68-48b9a787dc95" name="Brush" isAbstract="false" isLeaf="false" cachedFullName="Brush">
+        <elementDefinition Id="83cece9d-6099-44d4-a664-e87f7599297e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2940ca41-8859-4c6c-8af4-d165c82bf3ba" name="float" isAbstract="false" isLeaf="false" cachedFullName="float">
+        <elementDefinition Id="eddf6840-cf43-4a01-9356-362ade542f9a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3ce09c12-8448-43dc-97c0-618b14d21859" name="bool" isAbstract="false" isLeaf="false" cachedFullName="bool">
+        <elementDefinition Id="76974163-93d8-48a7-b4e5-4dbd757749a7" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d399a83a-3b12-4a82-9e26-f12e402af4dd" name="Rect" isAbstract="false" isLeaf="false" cachedFullName="Rect">
+        <elementDefinition Id="a4cd920f-a161-40ee-9e19-1eac96621b09" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="81188b69-1595-4de3-9bd1-f16e8bc64c62" name="Arkanoid_CasiDUso">
+    <elementDefinition Id="81199e95-4c21-4138-92ad-1544784f946c" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d8d9b705-e02b-44f0-b3e1-4c914af40761">
+        <profileInstance Id="d9045c42-6156-4814-9427-a8579d902a9f" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="786aa3d7-8ca9-42f5-a1a3-2dbeaf408bee">
+        <profileInstance Id="48627868-5b2f-4b68-9b9f-678ebc4e56cd" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

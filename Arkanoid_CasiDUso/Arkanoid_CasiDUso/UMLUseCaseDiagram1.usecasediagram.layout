@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLUseCaseDiagram1">
+  <useCaseModelRootMoniker Id="9d74b7de-a77e-40ab-b9b4-e13afb447e92" />
+  <nestedChildShapes>
+    <actorShape Id="f1822f08-2afd-4780-b778-346f25973371" absoluteBounds="1.125, 3.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="f7530eee-a5cb-46df-858f-8bb6033b4ff6" LastKnownName="Giocatore" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="d3aa9655-91e6-4cdf-941f-496d325fd96f" absoluteBounds="9.75, 3.625, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="4e2ff24b-0c55-4151-8c77-2eb6c7ee2c78" LastKnownName="Sistema" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="50b08593-99ce-4174-8c63-96158771534e" absoluteBounds="2.625, 2.875, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="7fb61526-9cda-4232-8f65-926616ae5201" LastKnownName="Muove la barra" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.625 : 3.875); (2.77144660940673 : 3.30177669529664)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="8742ddd7-359b-4190-a2ee-12a96bfe7e95" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="f1822f08-2afd-4780-b778-346f25973371" />
+        <useCaseShapeMoniker Id="50b08593-99ce-4174-8c63-96158771534e" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="d35e06d6-f61c-4a5f-aa1d-3de9fb53d0d6" absoluteBounds="3.125, 4.375, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="57e404b9-6ed6-4b6e-a215-3d6e9ce68dd1" LastKnownName="Mette in pausa il gioco" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.625 : 4.08333333333333); (3.16809422568987 : 4.59769807522996)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="6e23e393-47f5-4c5e-b5c4-dc0338711b36" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="f1822f08-2afd-4780-b778-346f25973371" />
+        <useCaseShapeMoniker Id="d35e06d6-f61c-4a5f-aa1d-3de9fb53d0d6" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="24a4bf2a-7e2e-4b93-a287-fa0027e07266" absoluteBounds="6, 3.25, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="53e41e63-2055-485e-af01-a7ce3fb64fbb" LastKnownName="Aggiorna punteggio" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(9.75 : 3.84821428571429); (6.9889012070387 : 3.55238227218272)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="3b836cab-2af1-4329-98e9-529a556ebc08" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="d3aa9655-91e6-4cdf-941f-496d325fd96f" />
+        <useCaseShapeMoniker Id="24a4bf2a-7e2e-4b93-a287-fa0027e07266" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="737b5b4a-eca8-4f5e-b265-89243d213164" absoluteBounds="3, 3.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="fde35f8f-a6d5-41da-bb13-bd5ac03affbb" LastKnownName="Consulta il punteggio" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.625 : 3.98529411764706); (3.00342469783856 : 3.90421031189185)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="31b98151-777b-4cf1-abdf-701d6cb0a1c2" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="f1822f08-2afd-4780-b778-346f25973371" />
+        <useCaseShapeMoniker Id="737b5b4a-eca8-4f5e-b265-89243d213164" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="0946ac56-c03d-492a-b94a-1b0d19a7ed1c" absoluteBounds="6.625, 2.375, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="00b22186-e0c3-40fd-93b1-413bd7a94eff" LastKnownName="Aggiorna le vite del giocatore" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(9.75 : 3.77717391304348); (7.56829242308273 : 2.92346225251063)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="bfd1b674-375a-4d08-9b30-04c67d2c39a3" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="d3aa9655-91e6-4cdf-941f-496d325fd96f" />
+        <useCaseShapeMoniker Id="0946ac56-c03d-492a-b94a-1b0d19a7ed1c" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="3f457c2e-041d-4109-8617-a84fc88d3280" absoluteBounds="5.875, 4.25, 1.125, 1.375" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="b6105c34-21a8-4d16-b24f-3aa11bb80fe7" LastKnownName="Rimuove i mattoncini quando vengono colpiti dalla pallina" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(9.75 : 3.94956140350877); (6.98396550635509 : 4.77451905950813)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b6a20c55-3c32-4f9c-ab8d-cc5e947d7d4f" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="d3aa9655-91e6-4cdf-941f-496d325fd96f" />
+        <useCaseShapeMoniker Id="3f457c2e-041d-4109-8617-a84fc88d3280" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="220c5234-6340-481c-9f15-864f1174d9ef" absoluteBounds="7.625, 1.625, 1.25, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="9cd932c6-d771-46cb-97b9-aa47289220f7" LastKnownName="Aggiornamento del livello di difficoltà" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(9.76666666666667 : 3.625); (8.5553771055824 : 2.32718975598115)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="a9ab1104-c2b7-4c73-ad70-658c7d381455" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="d3aa9655-91e6-4cdf-941f-496d325fd96f" />
+        <useCaseShapeMoniker Id="220c5234-6340-481c-9f15-864f1174d9ef" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="993e01bb-90f9-4be1-967b-76f369a9a14a" absoluteBounds="7.375, 5.5, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="5e2b254d-ae17-4a00-9082-cf914e20dcff" LastKnownName="Muove la pallina" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(9.75 : 4.09558823529412); (8.12150628599044 : 5.53249445353785)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="87009237-acde-4d11-b5b4-73310ce897f5" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="d3aa9655-91e6-4cdf-941f-496d325fd96f" />
+        <useCaseShapeMoniker Id="993e01bb-90f9-4be1-967b-76f369a9a14a" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <commentShape Id="ba44b02c-fdc6-41ba-8134-dc1c659d9292" absoluteBounds="2.125, 1.5, 0.625, 0.25" customColor="Transparent">
+      <commentMoniker Id="37a22006-49c7-4f96-8284-5c3a5482ce70" />
+      <relativeChildShapes />
+    </commentShape>
+    <rectangleShape Id="336ef8f6-f899-4777-9db7-e20059b7bc7a" absoluteBounds="2.125, 1.5, 7.5, 4.75" outlineColor="83, 134, 191" outlineThickness="0.03125" />
+  </nestedChildShapes>
+</useCaseDiagram>

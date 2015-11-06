@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="9d74b7de-a77e-40ab-b9b4-e13afb447e92" name="UMLUseCaseDiagram1" linkedPackageId="31b0645b-43e3-4ac3-ad7e-9294af1b5132" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="37a22006-49c7-4f96-8284-5c3a5482ce70">
+      <elementDefinition Id="4898b627-c4c1-4676-94b0-fbf27cf043c3" />
+      <body>Arkanoid</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="f7530eee-a5cb-46df-858f-8bb6033b4ff6" name="Giocatore" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="effcaf57-f884-4229-84ab-5977a95cc5a5" />
+        <targetEnds>
+          <association Id="8742ddd7-359b-4190-a2ee-12a96bfe7e95" isDerived="false" sourceEndRoleName="Giocatore" targetEndRoleName="Muove la barra" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7fb61526-9cda-4232-8f65-926616ae5201" LastKnownName="Muove la barra" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6a620e64-8f07-4e4b-a08d-47f43a71ba62" name="Giocatore" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8597c40c-daca-46a9-b939-07f9f71b5aca" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="38a6069b-b2db-43b7-83c9-66a2344b3102" name="Muove la barra" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6c8cb1d2-68bf-4a44-8d26-fda898813a94" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f86bb39f-38c4-4dd9-87e8-73b512646956" />
+          </association>
+          <association Id="31b98151-777b-4cf1-abdf-701d6cb0a1c2" isDerived="false" sourceEndRoleName="Giocatore" targetEndRoleName="Consulta il punteggio" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fde35f8f-a6d5-41da-bb13-bd5ac03affbb" LastKnownName="Consulta il punteggio" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2d398b46-aebb-452a-89e7-afc63dc4b8fd" name="Giocatore" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a5a9e5f0-928a-45df-a1a0-a7ff5f407e70" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2525d9e5-db8f-452a-a9df-b40132164bf6" name="Consulta il punteggio" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="09097f6c-f258-44e7-8281-2bf1c5803ea8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fc877204-bcb3-4228-87d5-0b177eb86afd" />
+          </association>
+          <association Id="6e23e393-47f5-4c5e-b5c4-dc0338711b36" isDerived="false" sourceEndRoleName="Giocatore" targetEndRoleName="Mette in pausa il gioco" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="57e404b9-6ed6-4b6e-a215-3d6e9ce68dd1" LastKnownName="Mette in pausa il gioco" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1cca434a-2f64-44bb-a0f3-2f34bd456ba5" name="Giocatore" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2be22479-8d87-49a1-9038-98448ba032ca" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="caabf656-8a39-4c6a-98a4-8e40c34591a9" name="Mette in pausa il gioco" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="326f65a9-f98a-4fde-9f6f-b6657ab3579b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b6a1ace0-114c-40df-a7f1-858c0f9ae81a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="4e2ff24b-0c55-4151-8c77-2eb6c7ee2c78" name="Sistema" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c231187f-5bf0-48b7-81ee-adc527a21112" />
+        <targetEnds>
+          <association Id="a9ab1104-c2b7-4c73-ad70-658c7d381455" isDerived="false" sourceEndRoleName="Sistema" targetEndRoleName="Aggiornamento del livello di difficoltà" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9cd932c6-d771-46cb-97b9-aa47289220f7" LastKnownName="Aggiornamento del livello di difficoltà" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ec338e8d-392f-45b5-bbd1-c6501aa6835b" name="Sistema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4eadb02a-e413-4851-a9c1-0f0277d95e79" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c0a578d2-6f3f-42d6-bc9f-7f70c94d29b3" name="Aggiornamento del livello di difficoltà" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7ec17108-01d0-449c-be84-73e68e468e4a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5061bd45-faed-455c-8578-e6b7b79d889c" />
+          </association>
+          <association Id="bfd1b674-375a-4d08-9b30-04c67d2c39a3" isDerived="false" sourceEndRoleName="Sistema" targetEndRoleName="Aggiorna le vite del giocatore" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="00b22186-e0c3-40fd-93b1-413bd7a94eff" LastKnownName="Aggiorna le vite del giocatore" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="312710ee-d587-4a18-9da7-4559bf8e0898" name="Sistema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c9ebbb7a-b204-455e-ae50-6fdeab9c1838" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a0ac00ab-d5c8-41eb-b781-2617d40d2783" name="Aggiorna le vite del giocatore" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9baf63f7-cac9-433b-b31f-25681640d0f8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a543f27a-4130-41bd-9587-480769beeeb4" />
+          </association>
+          <association Id="3b836cab-2af1-4329-98e9-529a556ebc08" isDerived="false" sourceEndRoleName="Sistema" targetEndRoleName="Aggiorna punteggio" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="53e41e63-2055-485e-af01-a7ce3fb64fbb" LastKnownName="Aggiorna punteggio" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7087ac38-1707-4266-9f4d-b7a2c8884914" name="Sistema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fe8c4e70-bb67-493f-8268-eea46622cb55" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4a73d19a-5c0b-478f-8a5e-b273c51a000f" name="Aggiorna punteggio" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0107b6e3-2028-4003-ac06-3264e544e9dd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a0cf8339-3f2f-4d55-bacd-3f37c42aa8c8" />
+          </association>
+          <association Id="b6a20c55-3c32-4f9c-ab8d-cc5e947d7d4f" isDerived="false" sourceEndRoleName="Sistema" targetEndRoleName="Rimuove i mattoncini quando vengono colpiti dalla pallina" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b6105c34-21a8-4d16-b24f-3aa11bb80fe7" LastKnownName="Rimuove i mattoncini quando vengono colpiti dalla pallina" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="76733883-a01c-405f-a9a6-ecc8a9a146de" name="Sistema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4d7407e8-99f0-41ab-9c36-da6ea1265912" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8a361fba-791f-4c77-8171-ef7bed5cfa4d" name="Rimuove i mattoncini quando vengono colpiti dalla pallina" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bf024937-2b79-4be0-8fd3-d83d25bbd19f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b101bcb9-c781-4de6-87de-2b1a8f0eee9e" />
+          </association>
+          <association Id="87009237-acde-4d11-b5b4-73310ce897f5" isDerived="false" sourceEndRoleName="Sistema" targetEndRoleName="Muove la pallina" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5e2b254d-ae17-4a00-9082-cf914e20dcff" LastKnownName="Muove la pallina" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e2d38b9a-d7a6-4fdc-9dbb-abab33046dce" name="Sistema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="04146f4a-65e8-48a3-9e78-412bb24b3e3b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b7a936aa-d625-47a4-87a9-ada28d2f4a79" name="Muove la pallina" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d07f09d0-4de9-4a06-9d85-9844193d0cee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="138da68d-44fe-4794-8cfb-f17cbfcfe806" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7fb61526-9cda-4232-8f65-926616ae5201" name="Muove la barra" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="44f35b93-7e43-4137-9b79-f41301551846" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="57e404b9-6ed6-4b6e-a215-3d6e9ce68dd1" name="Mette in pausa il gioco" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0b20f28b-9d25-4c79-b684-da766a81f3ff" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="53e41e63-2055-485e-af01-a7ce3fb64fbb" name="Aggiorna punteggio" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eca0f49f-0e2e-414d-a6f9-41e0b441513e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fde35f8f-a6d5-41da-bb13-bd5ac03affbb" name="Consulta il punteggio" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="afb0467b-f23f-486e-937c-01f759297550" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="00b22186-e0c3-40fd-93b1-413bd7a94eff" name="Aggiorna le vite del giocatore" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c936c885-4363-49df-9ff0-20a5fb879db2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b6105c34-21a8-4d16-b24f-3aa11bb80fe7" name="Rimuove i mattoncini quando vengono colpiti dalla pallina" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1fc4a2c7-81b5-4e2a-b238-8d6cabcb70d5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9cd932c6-d771-46cb-97b9-aa47289220f7" name="Aggiornamento del livello di difficoltà" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3b3e4114-0707-46dd-927f-09b23c4c137e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5e2b254d-ae17-4a00-9082-cf914e20dcff" name="Muove la pallina" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="300bfb4c-9131-43f2-b808-a11249a1b9c1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="31b0645b-43e3-4ac3-ad7e-9294af1b5132" name="Arkanoid_CasiDUso">
+    <elementDefinition Id="81199e95-4c21-4138-92ad-1544784f946c" />
+    <profileInstances>
+      <packageHasProfileInstances Id="5bb02d01-bfe7-456b-9c7e-065b1d67a7c2">
+        <profileInstance Id="51219ff6-976b-4fb9-ac60-1293209fe894" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="7ad8d193-fdce-4dce-ae6d-d7faa142f1f3">
+        <profileInstance Id="42ba6c94-50c7-4124-9729-99b4cce88ca6" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

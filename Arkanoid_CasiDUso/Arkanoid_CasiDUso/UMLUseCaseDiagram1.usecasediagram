@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="9d74b7de-a77e-40ab-b9b4-e13afb447e92" name="UMLUseCaseDiagram1" linkedPackageId="31b0645b-43e3-4ac3-ad7e-9294af1b5132" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="9d74b7de-a77e-40ab-b9b4-e13afb447e92" name="UMLUseCaseDiagram1" linkedPackageId="31b0645b-43e3-4ac3-ad7e-9294af1b5132" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
   <ownedCommentsInternal>
     <comment Id="37a22006-49c7-4f96-8284-5c3a5482ce70">
       <elementDefinition Id="4898b627-c4c1-4676-94b0-fbf27cf043c3" />
@@ -58,6 +58,22 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="b6a1ace0-114c-40df-a7f1-858c0f9ae81a" />
+          </association>
+          <association Id="9a66451b-1a61-47ff-87b2-caebd60f54d8" isDerived="false" sourceEndRoleName="Giocatore" targetEndRoleName="Inizia il gioco" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="076e2ba1-8d2a-42c0-9036-988d91ed6ebc" LastKnownName="Inizia il gioco" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ac376f7e-90d2-4794-a2b7-d153aab11d15" name="Giocatore" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="24c16905-9c10-448c-9a1f-92fb3cbb521f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0fd99b1f-f6f1-4685-9e4e-6a3798541ff0" name="Inizia il gioco" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="36989b7c-395d-4b30-91e4-f0f446572b7d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="221e1eaa-dfea-4842-9863-a060e85501c4" />
           </association>
         </targetEnds>
       </actor>
@@ -187,6 +203,11 @@
     <useCaseModelRootHasTypes>
       <useCase Id="5e2b254d-ae17-4a00-9082-cf914e20dcff" name="Muove la pallina" isAbstract="false" isLeaf="false">
         <elementDefinition Id="300bfb4c-9131-43f2-b808-a11249a1b9c1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="076e2ba1-8d2a-42c0-9036-988d91ed6ebc" name="Inizia il gioco" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="800f3b89-be6e-4817-ad7f-d33b834705ed" />
       </useCase>
     </useCaseModelRootHasTypes>
   </packagedElements>

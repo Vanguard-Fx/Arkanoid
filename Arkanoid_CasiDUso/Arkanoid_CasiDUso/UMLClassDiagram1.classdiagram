@@ -101,7 +101,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="bb546858-7f67-445f-849e-5517e97b9549" name="Pallina" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="bb546858-7f67-445f-849e-5517e97b9549" name="Ball" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="1fd27fbf-7526-4e65-9163-d0362d95c013" />
         <ownedAttributesInternal>
           <property Id="dc8735d0-3f67-4b23-9eba-ab8621ac72ec" name="Color" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
